@@ -1,11 +1,25 @@
 title: Ivan Iacono
 tag_text: Ivan Iacono
-description: Embedded Systems Engineer
+author: Ivan Iacono
+email: ""
+url: https://ivaniacono.com
+baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: "Software Engineering"
+
+favicon: ""
+
+theme_config:
+  appearance: "light" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
 markdown: kramdown
 exclude: ["README.md"]
-sass:
-  style: compressed
 
-gems:
-  - jekyll-sitemap
+sass:
+  style: :compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
