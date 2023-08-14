@@ -13,4 +13,4 @@ Software Engineering - London, UK.
 
 ### Contact
 
-my_first_name@this_domain.com
+*my_first_name* [at] *my_last_name* [dot] uk
